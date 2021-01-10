@@ -1,0 +1,15 @@
+Script started on 2020-10-06 20:16:04-06:00
+]0;stuart.johnstone@csa2:~/Documents/cs355stuart.johnstone@csa2:~/Documents/cs355$ exit./a.outgcc assign2a.sexit[Kstopquit./a.outgcc assign2b.s[14@m4 assign2b.asm >[C[C[C[C[C[C[C[C[C[C[C
+]0;stuart.johnstone@csa2:~/Documents/cs355stuart.johnstone@csa2:~/Documents/cs355$ m4 assign2b.asm > assign2b.sexit[K./a.outgcc assign2a.sexit[Kgcc assign2a.s
+]0;stuart.johnstone@csa2:~/Documents/cs355stuart.johnstone@csa2:~/Documents/cs355$ gcc assign2a.sm4 assign2b.asm > assign2b.sexit[K./a.outgcc assign2a.s[7P./a.out
+
+please input a number between 5 and 20 
+5
+76931
+The SUM of the list is 26
+LARGEST frequency 34
+SMALLEST frequency 3
+]0;stuart.johnstone@csa2:~/Documents/cs355stuart.johnstone@csa2:~/Documents/cs355$ exit
+exit
+
+Script done on 2020-10-06 20:16:19-06:00

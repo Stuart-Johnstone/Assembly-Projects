@@ -1,0 +1,627 @@
+Script started on 2020-12-09 10:50:25-07:00
+]0;stuart.johnstone@csa2:~/355/project_astuart.johnstone@csa2:~/355/project_a$ bash b.sh
+GNU gdb (GDB) Fedora 8.1.1-4.fc28
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./project...(no debugging symbols found)...done.
+(gdb) r 100 100 stuart
+Starting program: /home/ugb/stuart.johnstone/355/project_a/project 100 100 stuart
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+Missing separate debuginfos, use: dnf debuginfo-install glibc-2.27-38.fc28.aarch64
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+Need exactly two arguements inbetween 10 and 30 and a name
+[Inferior 1 (process 16323) exited with code 073]
+(gdb) r 100 100 stuart[C[1P stuart[1P stuart[1P stuart5 stuart[C[1P[1P[1P[1@5
+Starting program: /home/ugb/stuart.johnstone/355/project_a/project 5 5 stuart
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+Need exactly two arguements inbetween 10 and 30 and a name
+[Inferior 1 (process 16340) exited with code 073]
+(gdb) r 5 5 stuart[1P[1@1[1@0[C[C[1P stuart1 stuart0 stuart
+Starting program: /home/ugb/stuart.johnstone/355/project_a/project 10 10 stuart
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+How many high scores do you want to read? (0 for none) 10
+Name: Sÿÿÿÿtÿÿÿÿuÿÿÿÿaÿÿÿÿrÿÿÿÿtÿÿÿÿ
+ÿÿÿÿRounds: 2ÿÿÿÿ0ÿÿÿÿ
+ÿÿÿÿScore: 2ÿÿÿÿ4ÿÿÿÿ8ÿÿÿÿ.ÿÿÿÿ9ÿÿÿÿ
+ÿÿÿÿName: aÿÿÿÿsÿÿÿÿdÿÿÿÿfÿÿÿÿ
+ÿÿÿÿRounds: 1ÿÿÿÿ9ÿÿÿÿ
+ÿÿÿÿScore: 2ÿÿÿÿ3ÿÿÿÿ5ÿÿÿÿ.ÿÿÿÿ8ÿÿÿÿ
+ÿÿÿÿName: qÿÿÿÿwÿÿÿÿeÿÿÿÿrÿÿÿÿ
+ÿÿÿÿRounds: 1ÿÿÿÿ8ÿÿÿÿ
+ÿÿÿÿScore: 2ÿÿÿÿ2ÿÿÿÿ2ÿÿÿÿ.ÿÿÿÿ7ÿÿÿÿ
+ÿÿÿÿName: qÿÿÿÿwÿÿÿÿeÿÿÿÿrÿÿÿÿ
+ÿÿÿÿRounds: 1ÿÿÿÿ7ÿÿÿÿ
+ÿÿÿÿScore: 2ÿÿÿÿ0ÿÿÿÿ9ÿÿÿÿ.ÿÿÿÿ6ÿÿÿÿ
+ÿÿÿÿName: cÿÿÿÿgÿÿÿÿhÿÿÿÿjÿÿÿÿ
+ÿÿÿÿRounds: 1ÿÿÿÿ6ÿÿÿÿ
+ÿÿÿÿScore: 1ÿÿÿÿ9ÿÿÿÿ6ÿÿÿÿ.ÿÿÿÿ5ÿÿÿÿ
+ÿÿÿÿName: xÿÿÿÿcÿÿÿÿvÿÿÿÿbÿÿÿÿ
+ÿÿÿÿRounds: 1ÿÿÿÿ5ÿÿÿÿ
+ÿÿÿÿScore: 1ÿÿÿÿ8ÿÿÿÿ3ÿÿÿÿ.ÿÿÿÿ4ÿÿÿÿ
+ÿÿÿÿName: xÿÿÿÿcÿÿÿÿvÿÿÿÿcÿÿÿÿ
+ÿÿÿÿRounds: 1ÿÿÿÿ4ÿÿÿÿ
+ÿÿÿÿScore: 1ÿÿÿÿ7ÿÿÿÿ0ÿÿÿÿ.ÿÿÿÿ3ÿÿÿÿ
+ÿÿÿÿName: zÿÿÿÿxÿÿÿÿcÿÿÿÿvÿÿÿÿ
+ÿÿÿÿRounds: 1ÿÿÿÿ3ÿÿÿÿ
+ÿÿÿÿScore: 1ÿÿÿÿ5ÿÿÿÿ7ÿÿÿÿ.ÿÿÿÿ2ÿÿÿÿ
+ÿÿÿÿName: eÿÿÿÿtÿÿÿÿrÿÿÿÿyÿÿÿÿ
+ÿÿÿÿRounds: 1ÿÿÿÿ2ÿÿÿÿ
+ÿÿÿÿScore: 1ÿÿÿÿ4ÿÿÿÿ4ÿÿÿÿ.ÿÿÿÿ1ÿÿÿÿ
+ÿÿÿÿName: tÿÿÿÿyÿÿÿÿuÿÿÿÿiÿÿÿÿ
+ÿÿÿÿRounds: 1ÿÿÿÿ1ÿÿÿÿ
+ÿÿÿÿScore: 1ÿÿÿÿ3ÿÿÿÿ1ÿÿÿÿ.ÿÿÿÿ0ÿÿÿÿ
+ÿÿÿÿ
+9.8 -2.7 0.1 $ 7.3 -4.7 -10.4 -6.6 -2.9 -4.3 
+-0.2 -5.8 -12.8 -9.9 -11.7 14.0 4.4 12.8 11.5 1.3 
+0.7 -9.9 11.5 13.8 -12.0 8.7 -12.5 * -10.4 ! 
+1.8 3.6 13.3 11.7 7.3 -9.8 -10.4 1.8 8.0 -10.9 
+-11.1 -6.6 $ -10.3 ^ 7.5 -5.7 7.6 7.0 ^ 
+-14.1 -11.6 ^ -12.0 12.6 -5.5 -12.6 3.0 -14.2 -13.3 
+^ $ -2.2 -6.0 -7.1 4.2 -12.5 $ 4.8 5.4 
+7.0 -12.1 $ $ $ 4.2 ! -6.6 6.9 -1.8 
+7.4 ^ 2.6 -2.9 7.0 $ 9.7 14.3 -8.3 -11.7 
+13.8 -2.9 5.4 1.2 12.8 7.1 -4.9 $ -6.6 -10.7 
+The board is 43 persent negative 
+X X X X X X X X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+Lives: 10 
+Score: 0.00 
+Bombs: 10 
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? 5 5
+X X X X X X X X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+X X X X ^ + - X X X 
+X X X X + - - X X X 
+X X X X - + - X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+Lives: 10 
+Score: -18.10 
+Bombs: 9 
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? 2 2
+X X X X X X X X X X 
+X - - - X X X X X X 
+X - + + X X X X X X 
+X + + + X X X X X X 
+X X X X ^ + - X X X 
+X X X X + - - X X X 
+X X X X - + - X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+Lives: 10 
+Score: -1.60 
+Bombs: 8 
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? 6 1
+X X X X X - - - X X 
+X - - - X + + + X X 
+X - + + X + - * X X 
+X + + + X X X X X X 
+X X X X ^ + - X X X 
+X X X X + - - X X X 
+X X X X - + - X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+X X X X X X X X X X 
+Lives: -100 
+Score: 5.10 
+Bombs: 7 
+How many high scores do you want to read? (0 for none) 2
+Name: Sÿÿÿÿtÿÿÿÿuÿÿÿÿaÿÿÿÿrÿÿÿÿtÿÿÿÿ
+ÿÿÿÿRounds: 2ÿÿÿÿ0ÿÿÿÿ
+ÿÿÿÿScore: 2ÿÿÿÿ4ÿÿÿÿ8ÿÿÿÿ.ÿÿÿÿ9ÿÿÿÿ
+ÿÿÿÿName: aÿÿÿÿsÿÿÿÿdÿÿÿÿfÿÿÿÿ
+ÿÿÿÿRounds: 1ÿÿÿÿ9ÿÿÿÿ
+ÿÿÿÿScore: 2ÿÿÿÿ3ÿÿÿÿ5ÿÿÿÿ.ÿÿÿÿ8ÿÿÿÿ
+ÿÿÿÿ
+[Inferior 1 (process 16350) exited normally]
+(gdb) r 10 10 stuart[1P[1@3[C[C[C[1P[1@3
+Starting program: /home/ugb/stuart.johnstone/355/project_a/project 30 30 stuart
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+How many high scores do you want to read? (0 for none) 0
+
+-10.6 4.0 12.2 -14.7 3.8 $ ^ 3.0 $ ^ 2.4 12.0 -3.0 -5.4 10.0 ^ -4.3 12.3 11.1 $ -13.9 -9.7 7.4 ! ^ 9.1 13.5 ! 0.1 -14.1 
+12.9 6.4 -9.8 -14.4 1.7 -1.5 ! ^ $ ^ -12.0 $ 1.9 13.0 4.1 ! 0.0 0.1 $ -11.4 14.7 -2.1 9.6 -2.5 3.4 -11.9 -14.7 -6.6 ! 14.4 
+$ -0.5 ^ -7.7 -10.4 2.6 2.4 10.4 -5.8 11.7 -7.4 $ $ 4.5 -1.9 1.2 6.9 ^ ! -6.2 14.0 -13.7 -4.1 $ 2.7 -14.8 ! 13.0 -2.4 2.8 
+! 13.8 -11.4 $ 0.7 $ -4.7 -11.8 11.1 $ 12.3 9.9 0.2 -12.3 $ -2.6 0.0 7.8 -12.8 -0.8 -12.5 -8.9 ! 1.7 12.1 -11.1 -1.5 -2.3 ! $ 
+0.7 ^ 9.7 -12.4 -14.6 $ $ -4.9 1.7 ^ ^ -8.5 2.3 -12.4 -11.3 ! 5.9 3.3 5.4 $ 4.6 -12.9 -11.4 -4.8 5.2 12.2 -6.1 -9.6 -2.4 ! 
+-0.4 6.5 $ -12.4 ^ $ 7.3 -8.0 0.0 -2.1 8.0 -9.7 5.9 ! ! ! -13.9 4.3 14.3 -4.5 -13.8 6.6 9.8 10.1 -2.9 -5.5 12.4 -5.9 ! 11.9 
+-8.8 0.3 -9.3 ! $ 14.6 12.6 -12.6 11.3 -13.0 -0.7 $ 14.5 1.8 $ -7.6 ^ 4.3 $ $ $ 12.3 13.9 4.2 -13.4 -10.3 -1.5 8.1 $ 11.6 
+4.4 -2.6 13.0 -2.4 -11.2 -7.8 12.7 11.2 $ 7.7 3.6 ! ! 1.9 2.8 11.3 -8.3 -11.4 6.1 8.4 ^ 7.3 -11.8 ! -4.9 -7.2 -6.1 -4.2 4.2 $ 
+10.2 4.9 $ -5.7 10.9 ^ 11.0 -13.5 $ 5.8 6.2 2.1 -5.1 -4.4 -8.1 ^ 14.7 2.7 13.5 6.2 8.4 10.6 -7.2 ! -8.0 -4.0 ! $ ! ^ 
+^ ^ 11.0 0.7 -7.2 -9.5 10.2 $ -9.9 -13.2 -7.0 -7.8 4.1 -6.8 7.0 ^ -8.1 8.9 7.8 4.1 -7.1 6.1 $ 5.0 9.9 -3.0 -1.2 $ $ -8.0 
+-12.8 9.2 1.8 $ -8.5 0.2 8.8 -8.5 8.3 -13.6 -12.5 $ 8.1 9.5 ! 13.1 10.3 6.1 6.2 ^ -6.9 $ $ -4.9 ^ -12.3 -10.6 -5.1 6.7 $ 
+-12.9 13.6 9.6 10.9 -1.8 -11.3 1.7 -0.0 7.1 -10.4 13.9 -7.2 -1.7 $ -2.5 $ 4.5 -14.1 $ 10.6 8.9 7.2 ^ -13.0 7.9 -3.2 ! 6.9 13.2 $ 
+-8.6 11.8 1.6 -2.7 11.6 11.4 -1.0 $ -6.5 -13.5 8.8 -2.0 7.8 9.9 ^ -2.5 -13.1 12.5 0.9 $ 4.2 -8.5 -3.5 6.8 5.8 -5.2 12.6 -10.9 11.8 ! 
+-13.6 ^ ! -2.0 $ -14.0 0.1 $ 8.7 ^ 2.5 4.8 $ 1.3 6.9 ^ 9.0 13.0 -12.6 10.3 -5.6 ! 7.4 14.5 3.7 -6.3 -9.0 2.1 ! 0.9 
+7.8 $ -11.4 $ -8.9 6.7 6.6 10.7 5.5 10.9 -14.7 11.2 3.8 -10.6 12.5 5.9 -0.0 -2.8 -5.1 10.9 11.5 ! $ ^ -0.6 -2.3 -1.5 14.5 7.6 $ 
+^ 6.1 0.0 9.6 $ -14.8 ! 8.9 -14.5 -13.4 $ 11.1 -10.0 -4.1 6.7 -3.4 $ -7.3 8.9 -1.0 12.9 -3.6 0.5 7.6 0.0 -10.9 -12.3 10.1 $ 0.4 
+-11.0 -4.9 -3.8 -1.9 -9.8 6.1 14.4 9.9 3.0 -10.8 -14.0 10.1 $ 9.1 4.7 3.2 -9.0 ^ -1.0 6.2 $ 3.8 $ 3.3 $ 14.4 ! -7.6 -0.0 $ 
+-7.0 -6.4 5.6 4.4 4.3 -2.7 ^ $ ^ -8.2 $ 13.9 7.6 11.2 ^ $ 2.2 12.5 -9.2 5.0 13.5 -11.8 -10.0 -9.9 7.7 9.4 $ -12.5 $ 6.9 
+9.0 11.0 -10.1 14.8 -6.1 $ -8.2 ! $ $ 11.4 -13.7 3.3 11.9 $ -3.9 14.5 -11.4 $ -9.6 $ $ -8.9 -8.5 $ 4.7 8.4 6.4 10.3 ! 
+12.7 -0.6 -10.5 7.7 3.9 $ 0.9 -5.9 -4.7 8.3 13.8 5.2 -12.1 14.7 -5.5 ^ -11.3 -11.1 -12.0 -12.0 -1.8 -7.1 -3.7 8.2 13.4 ^ 10.3 ! 8.0 10.6 
+0.9 $ -9.1 14.8 ^ -2.8 $ -3.0 -3.7 -2.4 8.5 -4.8 14.3 -7.1 -5.1 1.5 $ -14.1 12.9 13.3 6.5 $ -6.8 -0.3 6.4 -3.2 -1.4 14.5 3.6 13.6 
+-0.1 5.3 -4.6 14.6 -14.1 4.2 $ 7.6 0.4 12.5 $ 12.2 -14.3 $ -8.9 12.0 $ -6.8 -2.5 -6.0 $ 8.1 -11.2 -11.6 $ 8.9 -0.4 ^ 13.6 $ 
+$ 6.9 $ -8.3 10.6 $ 9.9 5.7 $ ^ ^ -3.1 -9.1 $ ^ $ 6.3 -12.9 12.5 5.8 11.0 -4.1 -5.3 $ 2.6 10.0 -3.9 7.3 5.8 -11.4 
+-1.1 -5.1 1.0 -12.8 -14.7 7.0 ^ ^ -1.6 -6.6 6.4 9.2 -0.1 -14.0 7.0 -13.7 -8.4 11.4 -2.6 -8.3 -3.3 -3.7 7.1 5.3 -1.4 8.6 4.0 $ -9.9 -11.1 
+13.9 -5.8 $ 2.0 1.9 ^ -1.1 7.4 -10.1 -2.8 ! -0.2 4.8 4.6 2.7 12.4 1.1 9.2 11.0 -13.1 12.1 4.1 -2.3 7.4 10.1 4.8 12.2 10.7 -0.1 ! 
+6.6 4.5 -13.5 -13.9 * -2.4 ^ 7.4 ^ 14.6 4.6 6.2 ^ 11.4 $ 12.5 -8.9 -4.4 1.1 -11.2 -4.4 4.2 9.8 10.0 6.2 -0.1 -10.0 11.6 13.1 $ 
+0.7 -4.9 ^ -12.2 13.4 -10.9 ^ 11.0 12.1 -11.3 -0.9 9.8 7.8 9.1 -10.2 $ -8.1 -1.2 11.2 -11.7 12.4 2.9 -8.0 -13.1 ! -4.1 5.9 -3.2 10.9 -10.1 
+$ 7.6 -3.5 -0.4 -12.8 14.8 5.0 -5.5 ^ $ -3.5 $ 12.7 3.8 6.2 -10.5 -6.0 ! 7.6 ! -8.2 -0.9 -3.1 12.3 5.7 -14.1 -0.2 14.3 -12.8 12.1 
+-7.5 0.9 -1.2 $ -7.4 4.8 ^ $ 7.9 13.1 4.1 -13.4 $ ^ ^ -9.3 -3.1 -3.0 12.1 $ 0.7 6.0 ! -7.3 -8.5 2.1 ! -12.7 -3.8 -5.6 
+$ 14.8 5.9 ! 9.9 3.2 -7.2 ^ -5.7 0.6 14.8 -2.4 ! 9.1 ! -3.6 10.3 6.9 -11.7 0.0 -9.8 -3.3 3.1 -9.9 -8.7 3.7 -14.1 12.1 11.7 1.2 
+The board is 1431655801 persent negative 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+Lives: 30 
+Score: 0.00 
+Bombs: 30 
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? 10 10
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X - - - X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X - - $ X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X - + - X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+Lives: 29 
+Score: -56.80 
+Bombs: 29 
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? 4 4
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X ^ - - + + X X X X X X X X X X X X X X X X X X X X X X X 
+X X - $ + $ - X X X X X X X X X X X X X X X X X X X X X X X 
+X X + - - $ $ X X X X X X X X X X X X X X X X X X X X X X X 
+X X $ - ^ $ + X X X X X X X X X X X X X X X X X X X X X X X 
+X X - + $ + + X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X - - - X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X - - $ X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X - + - X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+Lives: 29 
+Score: -88.80 
+Bombs: 28 
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? 10 5
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X ^ - - + + X X X X X X X X X X X X X X X X X X X X X X X 
+X X - $ + $ - X + $ + + + X X X X X X X X X X X X X X X X X 
+X X + - - $ $ X + ^ ^ - + X X X X X X X X X X X X X X X X X 
+X X $ - ^ $ + X - - + - + X X X X X X X X X X X X X X X X X 
+X X - + $ + + X + - - $ + X X X X X X X X X X X X X X X X X 
+X X X X X X X X $ + + + + X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X - - - X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X - - $ X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X - + - X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+Lives: 29 
+Score: -33.30 
+Bombs: 27 
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? 100  00     60 60
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? -1 -1
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? 50  25 25
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X ^ - - + + X X X X X X X X X X X X X X X X X X X X X X X 
+X X - $ + $ - X + $ + + + X X X X X X X X X X X X X X X X X 
+X X + - - $ $ X + ^ ^ - + X X X X X X X X X X X X X X X X X 
+X X $ - ^ $ + X - - + - + X X X X X X X X X X X X X X X X X 
+X X - + $ + + X + - - $ + X X X X X X X X X X X X X X X X X 
+X X X X X X X X $ + + + + X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X - - - X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X - - $ X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X - + - X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X + - + + $ X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + + + + X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X - + - + - X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+Lives: 28 
+Score: 50.60 
+Bombs: 26 
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? 6 6
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X ^ - - + + X X X X X X X X X X X X X X X X X X X X X X X 
+X X - $ + $ - X + $ + + + X X X X X X X X X X X X X X X X X 
+X X + - - $ $ - + ^ ^ - + X X X X X X X X X X X X X X X X X 
+X X $ - ^ $ + - - - + - + X X X X X X X X X X X X X X X X X 
+X X - + $ + + - + - - $ + X X X X X X X X X X X X X X X X X 
+X X X X - - + + $ + + + + X X X X X X X X X X X X X X X X X 
+X X X X + ^ + - $ X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X - - - X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X - - $ X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X - + - X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X + - + + $ X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + + + + X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X - + - + - X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+Lives: 28 
+Score: 39.40 
+Bombs: 25 
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? 6 10
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X ^ - - + + X X X X X X X X X X X X X X X X X X X X X X X 
+X X - $ + $ - X + $ + + + X X X X X X X X X X X X X X X X X 
+X X + - - $ $ - + ^ ^ - + X X X X X X X X X X X X X X X X X 
+X X $ - ^ $ + - - - + - + X X X X X X X X X X X X X X X X X 
+X X - + $ + + - + - - $ + X X X X X X X X X X X X X X X X X 
+X X X X - - + + $ + + + + X X X X X X X X X X X X X X X X X 
+X X X X + ^ + - $ X X X X X X X X X X X X X X X X X X X X X 
+X X X X - - + $ - - - - X X X X X X X X X X X X X X X X X X 
+X X X X - + + - + - - $ X X X X X X X X X X X X X X X X X X 
+X X X X - - + - + - + - X X X X X X X X X X X X X X X X X X 
+X X X X + + - $ - X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X + - + + $ X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + + + + X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X - + - + - X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+Lives: 27 
+Score: 35.50 
+Bombs: 24 
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? 6 20
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X ^ - - + + X X X X X X X X X X X X X X X X X X X X X X X 
+X X - $ + $ - X + $ + + + X X X X X X X X X X X X X X X X X 
+X X + - - $ $ - + ^ ^ - + X X X X X X X X X X X X X X X X X 
+X X $ - ^ $ + - - - + - + X X X X X X X X X X X X X X X X X 
+X X - + $ + + - + - - $ + X X X X X X X X X X X X X X X X X 
+X X X X - - + + $ + + + + X X X X X X X X X X X X X X X X X 
+X X X X + ^ + - $ X X X X X X X X X X X X X X X X X X X X X 
+X X X X - - + $ - - - - X X X X X X X X X X X X X X X X X X 
+X X X X - + + - + - - $ X X X X X X X X X X X X X X X X X X 
+X X X X - - + - + - + - X X X X X X X X X X X X X X X X X X 
+X X X X + + - $ - X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X - $ - + $ X X X X X X X X X X X X X X X X X X X X X 
+X X X X + $ + - - X X X X X X X X X X X X X X X X X X X X X 
+X X X X ^ - $ - - X X X X X X X X X X X X X X X X X X X X X 
+X X X X - + $ + + X X X X X X X X X X X X X X X X X X X X X 
+X X X X + $ + + $ X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X + - + + $ X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + + + + X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X - + - + - X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+Lives: 26 
+Score: 31.20 
+Bombs: 23 
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? 20 23
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X ^ - - + + X X X X X X X X X X X X X X X X X X X X X X X 
+X X - $ + $ - X + $ + + + X X X X X X X X X X X X X X X X X 
+X X + - - $ $ - + ^ ^ - + X X X X X X X X X X X X X X X X X 
+X X $ - ^ $ + - - - + - + X X X X X X X X X X X X X X X X X 
+X X - + $ + + - + - - $ + X X X X X X X X X X X X X X X X X 
+X X X X - - + + $ + + + + X X X X X X X X X X X X X X X X X 
+X X X X + ^ + - $ X X X X X X X X X X X X X X X X X X X X X 
+X X X X - - + $ - - - - X X X X X X X X X X X X X X X X X X 
+X X X X - + + - + - - $ X X X X X X X X X X X X X X X X X X 
+X X X X - - + - + - + - X X X X X X X X X X X X X X X X X X 
+X X X X + + - $ - X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X - $ - + $ X X X X X X X X X X X X X X X X X X X X X 
+X X X X + $ + - - X X X X X X X X X X X X X X X X X X X X X 
+X X X X ^ - $ - - X X X X X X X X X X X X X X X X X X X X X 
+X X X X - + $ + + X X X X X X X X X - - $ + - X X X X X X X 
+X X X X + $ + + $ X X X X X X X X X + + + - - X X X X X X X 
+X X X X X X X X X X X X X X X X X X - - - - + + - + + $ X X 
+X X X X X X X X X X X X X X X X X X + - + + - + + + + + X X 
+X X X X X X X X X X X X X X X X X X + - - + + + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X - + - + - X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+Lives: 26 
+Score: 41.00 
+Bombs: 22 
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? 15 15
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X ^ - - + + X X X X X X X X X X X X X X X X X X X X X X X 
+X X - $ + $ - X + $ + + + X X X X X X X X X X X X X X X X X 
+X X + - - $ $ - + ^ ^ - + X X X X X X X X X X X X X X X X X 
+X X $ - ^ $ + - - - + - + X X X X X X X X X X X X X X X X X 
+X X - + $ + + - + - - $ + X X X X X X X X X X X X X X X X X 
+X X X X - - + + $ + + + + X X X X X X X X X X X X X X X X X 
+X X X X + ^ + - $ X X X X X X X X X X X X X X X X X X X X X 
+X X X X - - + $ - - - - X X X X X X X X X X X X X X X X X X 
+X X X X - + + - + - - $ X X X X X X X X X X X X X X X X X X 
+X X X X - - + - + - + - X X X X X X X X X X X X X X X X X X 
+X X X X + + - $ - X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X + + ^ + + X X X X X X X X X X X X 
+X X X X X X X X X X X X X - + + - - X X X X X X X X X X X X 
+X X X X X X X X X X X X X - + - $ - X X X X X X X X X X X X 
+X X X X X X X X X X X X X + + + - ^ X X X X X X X X X X X X 
+X X X X X X X X X X X X X + ^ $ + + X X X X X X X X X X X X 
+X X X X - $ - + $ X X X X X X X X X X X X X X X X X X X X X 
+X X X X + $ + - - X X X X X X X X X X X X X X X X X X X X X 
+X X X X ^ - $ - - X X X X X X X X X X X X X X X X X X X X X 
+X X X X - + $ + + X X X X X X X X X - - $ + - X X X X X X X 
+X X X X + $ + + $ X X X X X X X X X + + + - - X X X X X X X 
+X X X X X X X X X X X X X X X X X X - - - - + + - + + $ X X 
+X X X X X X X X X X X X X X X X X X + - + + - + + + + + X X 
+X X X X X X X X X X X X X X X X X X + - - + + + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X - + - + - X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+Lives: 29 
+Score: 103.00 
+Bombs: 21 
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? 18 18
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X ^ - - + + X X X X X X X X X X X X X X X X X X X X X X X 
+X X - $ + $ - X + $ + + + X X X X X X X X X X X X X X X X X 
+X X + - - $ $ - + ^ ^ - + X X X X X X X X X X X X X X X X X 
+X X $ - ^ $ + - - - + - + X X X X X X X X X X X X X X X X X 
+X X - + $ + + - + - - $ + X X X X X X X X X X X X X X X X X 
+X X X X - - + + $ + + + + X X X X X X X X X X X X X X X X X 
+X X X X + ^ + - $ X X X X X X X X X X X X X X X X X X X X X 
+X X X X - - + $ - - - - X X X X X X X X X X X X X X X X X X 
+X X X X - + + - + - - $ X X X X X X X X X X X X X X X X X X 
+X X X X - - + - + - + - X X X X X X X X X X X X X X X X X X 
+X X X X + + - $ - X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X + + ^ + + X X X X X X X X X X X X 
+X X X X X X X X X X X X X - + + - - X X X X X X X X X X X X 
+X X X X X X X X X X X X X - + - $ - X X X X X X X X X X X X 
+X X X X X X X X X X X X X + + + - ^ - + $ X X X X X X X X X 
+X X X X X X X X X X X X X + ^ $ + + - + + X X X X X X X X X 
+X X X X - $ - + $ X X X X X X X + - $ - $ X X X X X X X X X 
+X X X X + $ + - - X X X X X X X - - - - - X X X X X X X X X 
+X X X X ^ - $ - - X X X X X X X $ - + + + X X X X X X X X X 
+X X X X - + $ + + X X X X X X X X X - - $ + - X X X X X X X 
+X X X X + $ + + $ X X X X X X X X X + + + - - X X X X X X X 
+X X X X X X X X X X X X X X X X X X - - - - + + - + + $ X X 
+X X X X X X X X X X X X X X X X X X + - + + - + + + + + X X 
+X X X X X X X X X X X X X X X X X X + - - + + + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X - + - + - X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+Lives: 28 
+Score: 82.40 
+Bombs: 20 
+Type 100 100 to Quit
+What are the cordinates you want to bomb (x y)? 5 100 100
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X ^ - - + + X X X X X X X X X X X X X X X X X X X X X X X 
+X X - $ + $ - X + $ + + + X X X X X X X X X X X X X X X X X 
+X X + - - $ $ - + ^ ^ - + X X X X X X X X X X X X X X X X X 
+X X $ - ^ $ + - - - + - + X X X X X X X X X X X X X X X X X 
+X X - + $ + + - + - - $ + X X X X X X X X X X X X X X X X X 
+X X X X - - + + $ + + + + X X X X X X X X X X X X X X X X X 
+X X X X + ^ + - $ X X X X X X X X X X X X X X X X X X X X X 
+X X X X - - + $ - - - - X X X X X X X X X X X X X X X X X X 
+X X X X - + + - + - - $ X X X X X X X X X X X X X X X X X X 
+X X X X - - + - + - + - X X X X X X X X X X X X X X X X X X 
+X X X X + + - $ - X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X + + ^ + + X X X X X X X X X X X X 
+X X X X X X X X X X X X X - + + - - X X X X X X X X X X X X 
+X X X X X X X X X X X X X - + - $ - X X X X X X X X X X X X 
+X X X X X X X X X X X X X + + + - ^ - + $ X X X X X X X X X 
+X X X X X X X X X X X X X + ^ $ + + - + + X X X X X X X X X 
+X X X X - $ - + $ X X X X X X X + - $ - $ X X X X X X X X X 
+X X X X + $ + - - X X X X X X X - - - - - X X X X X X X X X 
+X X X X ^ - $ - - X X X X X X X $ - + + + X X X X X X X X X 
+X X X X - + $ + + X X X X X X X X X - - $ + - X X X X X X X 
+X X X X + $ + + $ X X X X X X X X X + + + - - X X X X X X X 
+X X X X X X X X X X X X X X X X X X - - - - + + - + + $ X X 
+X X X X X X X X X X X X X X X X X X + - + + - + + + + + X X 
+X X X X X X X X X X X X X X X X X X + - - + + + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X - + - + - X X 
+X X X X X X X X X X X X X X X X X X X X X X X + + - - + X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+Lives: 28 
+Score: 82.40 
+Bombs: 20 
+How many high scores do you want to read? (0 for none) 0
+
+[Inferior 1 (process 16371) exited with code 0367]
+(gdb) q
+]0;stuart.johnstone@csa2:~/355/project_astuart.johnstone@csa2:~/355/project_a$ q[Kexit
+exit
+
+Script done on 2020-12-09 10:52:36-07:00

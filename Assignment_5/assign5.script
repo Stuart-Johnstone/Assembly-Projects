@@ -1,0 +1,309 @@
+Script started on 2020-12-01 16:11:35-07:00
+]0;stuart.johnstone@csa2:~/355/Assignment_5stuart.johnstone@csa2:~/355/Assignment_5$ bashg [K[K b.sh
+GNU gdb (GDB) Fedora 8.1.1-4.fc28
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./a.out...done.
+(gdb) b 95
+Breakpoint 1 at 0x400810: file assign5.s, line 95.
+(gdb) b 194
+Breakpoint 2 at 0x4008e0: file assign5.s, line 194.
+(gdb) b 433
+Breakpoint 3 at 0x400a8c: file assign5.s, line 433.
+(gdb) b 567
+Breakpoint 4 at 0x400bdc: file assign5.s, line 567.
+(gdb) b 713
+Breakpoint 5 at 0x400d40: file assign5.s, line 713.
+(gdb) r 5 5 occurances.txt
+Starting program: /home/ugb/stuart.johnstone/355/Assignment_5/a.out 5 5 occurances.txt
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+Missing separate debuginfos, use: dnf debuginfo-install glibc-2.27-38.fc28.aarch64
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+
+Breakpoint 1, main () at assign5.s:97
+97		cmp 	x19,		5		//compares x19 and 5
+(gdb) p $x19
+$1 = 5
+(gdb) c
+Continuing.
+
+Breakpoint 2, ok () at assign5.s:196
+196		mov	x25,		0			//starting value for x25
+(gdb) p $w0
+$2 = 3
+(gdb) c
+Continuing.
+1 2 3 4 5 
+6 7 8 9 0 
+1 2 3 4 5 
+6 7 8 9 0 
+1 2 3 4 5 
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) p $ [Kx0
+$3 = 3
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+
+Breakpoint 5, WriteFI () at assign5.s:713
+713		ldr	x0,		[x27,x26]		//loads the number
+(gdb) c
+Continuing.
+What index would you like to search? (between 0 and 4) c 2
+
+Breakpoint 3, GetIndex () at assign5.s:433
+433		ldr	x25,		[x25]			//loads the value of the input into x25
+(gdb) p $ [Kx25
+$4 = 4325436
+(gdb) c
+Continuing.
+How many Top Documents do you want? (between 1 and 5) 2
+
+Breakpoint 4, SelectLT () at assign5.s:567
+567		udiv	w21,		w21,		w23	//divides w21 by w23
+(gdb) p $w21
+$5 = 500
+(gdb) c
+Continuing.
+Frequency of word 4 is: 33
+
+Breakpoint 4, SelectLT () at assign5.s:567
+567		udiv	w21,		w21,		w23	//divides w21 by w23
+(gdb) c
+Continuing.
+Frequency of word 3 is: 26
+Do you want to find more top documents? (1 for yes, 0 for no) 0
+[Inferior 1 (process 31075) exited normally]
+(gdb) q
+]0;stuart.johnstone@csa2:~/355/Assignment_5stuart.johnstone@csa2:~/355/Assignment_5$ bash b.sh
+GNU gdb (GDB) Fedora 8.1.1-4.fc28
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./a.out...done.
+(gdb) r 5 5
+Starting program: /home/ugb/stuart.johnstone/355/Assignment_5/a.out 5 5
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+Missing separate debuginfos, use: dnf debuginfo-install glibc-2.27-38.fc28.aarch64
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+3 6 7 5 3 
+5 6 2 9 1 
+2 7 0 9 3 
+6 0 6 2 6 
+1 8 7 9 2 
+What index would you like to search? (between 0 and 4) 2
+How many Top Documents do you want? (between 1 and 5) 2
+Frequency of word 3 is: 42
+Frequency of word 1 is: 33
+Do you want to find more top documents? (1 for yes, 0 for no) 1
+What index would you like to search? (between 0 and 4) 2
+How many Top Documents do you want? (between 1 and 5) 2
+Frequency of word 3 is: 42
+Frequency of word 1 is: 33
+Do you want to find more top documents? (1 for yes, 0 for no) 1
+What index would you like to search? (between 0 and 4) 4
+How many Top Documents do you want? (between 1 and 5) 5
+Frequency of word 3 is: 33
+Frequency of word 1 is: 29
+Frequency of word 0 is: 3
+Frequency of word 4 is: 0
+Frequency of word 4 is: 0
+Do you want to find more top documents? (1 for yes, 0 for no) 0
+[Inferior 1 (process 31483) exited normally]
+(gdb) r 20 20 occurn[Kances.txt
+Starting program: /home/ugb/stuart.johnstone/355/Assignment_5/a.out 20 20 occurances.txt
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 
+What index would you like to search? (between 0 and 19) 15
+How many Top Documents do you want? (between 1 and 20) 15
+Frequency of word 18 is: 10
+Frequency of word 8 is: 10
+Frequency of word 17 is: 8
+Frequency of word 7 is: 8
+Frequency of word 16 is: 7
+Frequency of word 6 is: 7
+Frequency of word 15 is: 6
+Frequency of word 5 is: 6
+Frequency of word 14 is: 5
+Frequency of word 4 is: 5
+Frequency of word 13 is: 4
+Frequency of word 3 is: 4
+Frequency of word 12 is: 3
+Frequency of word 2 is: 3
+Frequency of word 11 is: 2
+Do you want to find more top documents? (1 for yes, 0 for no) 0
+[Inferior 1 (process 31518) exited normally]
+(gdb) q
+]0;stuart.johnstone@csa2:~/355/Assignment_5stuart.johnstone@csa2:~/355/Assignment_5$ exit
+exit
+
+Script done on 2020-12-01 16:15:37-07:00

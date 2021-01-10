@@ -1,0 +1,11 @@
+36753
+56291
+27093
+60626
+18792
+Index searched: 2
+Top Documents Found: 2
+Word: 3
+Frequency: 42
+Word: 1
+Frequency: 33

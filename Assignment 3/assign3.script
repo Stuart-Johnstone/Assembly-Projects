@@ -1,0 +1,67 @@
+Script started on 2020-10-29 12:22:16-06:00
+]0;stuart.johnstone@csa2:~/Documents/cs355/Assignment_3stuart.johnstone@csa2:~/Documents/cs355/Assignment_3$ m4 assign3.asm > assign3.s
+]0;stuart.johnstone@csa2:~/Documents/cs355/Assignment_3stuart.johnstone@csa2:~/Documents/cs355/Assignment_3$ gcc assign3.a[Ks
+]0;stuart.johnstone@csa2:~/Documents/cs355/Assignment_3stuart.johnstone@csa2:~/Documents/cs355/Assignment_3$ ./a.outg./a.outc./a.outc./a.out ./a.out[1P./a.out[1P./a.out[1P./a.out[1P./a.outg./a.outd./a.outb./a.out
+bash: gdb./a.out: No such file or directory
+]0;stuart.johnstone@csa2:~/Documents/cs355/Assignment_3stuart.johnstone@csa2:~/Documents/cs355/Assignment_3$ gdb./a.out ./a.out
+GNU gdb (GDB) Fedora 8.1.1-4.fc28
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./a.out...(no debugging symbols found)...done.
+(gdb) r
+Starting program: /home/ugb/stuart.johnstone/Documents/cs355/Assignment_3/a.out 
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+Missing separate debuginfos, use: dnf debuginfo-install glibc-2.27-38.fc28.aarch64
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+-15 * 7 = -105 
+-14 * 6 = -84 
+-13 * 9 = -117 
+-12 * 3 = -36 
+-11 * 1 = -11 
+-10 * 15 = -150 
+-9 * 10 = -90 
+-8 * 12 = -96 
+-7 * 9 = -63 
+-6 * 13 = -78 
+-5 * 10 = -50 
+-4 * 11 = -44 
+-3 * 2 = -6 
+-2 * 11 = -22 
+-1 * 3 = -3 
+0 * 6 = 0 
+1 * 12 = 12 
+2 * 2 = 4 
+3 * 4 = 12 
+4 * 8 = 32 
+5 * 11 = 55 
+6 * 8 = 48 
+7 * 7 = 49 
+8 * 13 = 104 
+9 * 6 = 54 
+10 * 10 = 100 
+11 * 14 = 154 
+12 * 3 = 36 
+13 * 3 = 39 
+14 * 15 = 210 
+15 * 9 = 135 
+[Inferior 1 (process 23074) exited with code 016]
+(gdb) quit
+]0;stuart.johnstone@csa2:~/Documents/cs355/Assignment_3stuart.johnstone@csa2:~/Documents/cs355/Assignment_3$ exit
+exit
+
+Script done on 2020-10-29 12:23:00-06:00

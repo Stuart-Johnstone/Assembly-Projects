@@ -1,0 +1,60 @@
+Script started on 2020-09-24 09:32:17-06:00 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="136" LINES="72"]
+]0;stuart@DESKTOP-AGGSFEU: /mnt/c/Users/sksto/Documents/C_Assignments[01;32mstuart@DESKTOP-AGGSFEU[00m:[01;34m/mnt/c/Users/sksto/Documents/C_Assignments[00m$ ./a..[Kexe 5 5
+[6n[m]0;C:\Users\sksto\Documents\C_Assignments\a.exe[?25h0: 81171
+1: 45182
+2: 64260
+3: 91442
+4: 83346
+What is the index that you want to search for? (between 0 and 4)[1C6
+Input a number between then 0 and 4: 4
+How many top words would you like to find? (between 1 and 5) 4
+Top Document #1: 4
+Top Document #2: 1
+Top Document #3: 3
+Top Document #4: 0
+]0;stuart@DESKTOP-AGGSFEU: /mnt/c/Users/sksto/Documents/C_Assignments[01;32mstuart@DESKTOP-AGGSFEU[00m:[01;34m/mnt/c/Users/sksto/Documents/C_Assignments[00m$ ./a.exe 20 20 occurances.txt
+[6n[m]0;C:\Users\sksto\Documents\C_Assignments\a.exe[?25h0: 01234567890123456789
+1: 01234567890123456789
+2: 01234567890123456789
+3: 01234567890123456789
+4: 01234567890123456789
+5: 01234567890123456789
+6: 01234567890123456789
+7: 01234567890123456789
+8: 01234567890123456789
+9: 01234567890123456789
+10: 01234567890123456789
+11: 01234567890123456789
+12: 01234567890123456789
+13: 01234567890123456789
+14: 01234567890123456789
+15: 01234567890123456789
+16: 01234567890123456789
+17: 01234567890123456789
+18: 01234567890123456789
+19: 01234567890123456780
+What is the index that you want to search for? (between 0 and 19)[1C19
+How many top words would you like to find? (between 1 and 20) 19
+Top Document #1: 0
+Top Document #2: 1
+Top Document #3: 2
+Top Document #4: 3
+Top Document #5: 4
+Top Document #6: 5
+Top Document #7: 6
+Top Document #8: 7
+Top Document #9: 8
+Top Document #10: 9
+Top Document #11: 10
+Top Document #12: 11
+Top Document #13: 12
+Top Document #14: 13
+Top Document #15: 14
+Top Document #16: 15
+Top Document #17: 16
+Top Document #18: 17
+Top Document #19: 18
+]0;stuart@DESKTOP-AGGSFEU: /mnt/c/Users/sksto/Documents/C_Assignments[01;32mstuart@DESKTOP-AGGSFEU[00m:[01;34m/mnt/c/Users/sksto/Documents/C_Assignments[00m$ exit
+exit
+
+Script done on 2020-09-24 09:32:50-06:00 [COMMAND_EXIT_CODE="0"]

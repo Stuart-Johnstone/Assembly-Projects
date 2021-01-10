@@ -1,0 +1,202 @@
+Script started on 2020-10-22 21:56:39-06:00
+]0;stuart.johnstone@csa2:~/Documents/cs355/project/cstuart.johnstone@csa2:~/Documents/cs355/project/c$ exitn[K./a.out stuart 10 10
+Persentage of negative Numbers is: 40.000000 % 
+  7  -3  10  12  -13   9  -15  @   -2   2 
+ 14  -13   6  -10   5  ^   -2  10  -10  ^  
+  4  11  -5  -14   5  11  -10  $   -5  14 
+  6   1  -15  11  14  -1   4   4   7  -11 
+ 11   5   2  -13  -9  -13  -6   6  -6  13 
+ ^   -7   6   1  10  -9  -3  15  -4   8 
+ ^   $    2  -5  -8   8  ^    9  -12  -2 
+ 13  ^   10  -2  -6  10  -15   8  10  -10 
+  7   6  -9  -6  *   @   -3   8  ^   -2 
+  9  -13   8  -5  15  @   -8   2  -11   3 
+
+Do you want to see the previous scores? (y/n) y  
+How many scores do you want to see (>0)? 10 
+Name: stuart
+ Score: 602.43
+ Rounds: 2
+Name: stuart
+ Score: 545.03
+ Rounds: 2
+Name: stuart
+ Score: 464.14
+ Rounds: 2
+Name: stuart
+ Score: 367.12
+ Rounds: 2
+Name: stuart
+ Score: 292.33
+ Rounds: 2
+Name: stuart
+ Score: 270.08
+ Rounds: 2
+Name: stuart
+ Score: 269.07
+ Rounds: 2
+Name: a
+ Score: 163.95
+ Rounds: 1
+Name: stuart
+ Score: 139.10
+ Rounds: 2
+Name: a
+ Score: 97.65
+ Rounds: 1
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+Lives: 3 
+Bombs: 5 
+Score: 0.00 
+Type -1 -1  to Quit
+What are the cordinates you want to bomb (x y)? 4 4
+the score for this bomb was: -6.93 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  +  +  -  X  X  X  X 
+ X  X  X  -  -  -  X  X  X  X 
+ X  X  X  +  +  -  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+Lives: 2 
+Bombs: 4 
+Score:-6.93 
+Type -1 -1  to Quit
+What are the cordinates you want to bomb (x y)? 2 2
+the score for this bomb was: -39.27 
+ X  X  X  X  X  X  X  X  X  X 
+ X  -  +  -  X  X  X  X  X  X 
+ X  +  -  -  X  X  X  X  X  X 
+ X  +  -  +  +  -  X  X  X  X 
+ X  X  X  -  -  -  X  X  X  X 
+ X  X  X  +  +  -  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+Lives: 1 
+Bombs: 3 
+Score:-46.20 
+Type -1 -1  to Quit
+What are the cordinates you want to bomb (x y)? 7 7
+the score for this bomb was: 4.69 
+ X  X  X  X  X  X  X  X  X  X 
+ X  -  +  -  X  X  X  X  X  X 
+ X  +  -  -  X  X  X  X  X  X 
+ X  +  -  +  +  -  X  X  X  X 
+ X  X  X  -  -  -  X  X  X  X 
+ X  X  X  +  +  -  X  X  X  X 
+ X  X  X  X  X  X  @  +  -  X 
+ X  X  X  X  X  X  -  +  +  X 
+ X  X  X  X  X  X  -  +  @  X 
+ X  X  X  X  X  X  X  X  X  X 
+Lives: 7 
+Bombs: 2 
+Score:-41.51 
+Type -1 -1  to Quit
+What are the cordinates you want to bomb (x y)? 3 7
+the score for this bomb was: -22.66 
+You Won with a score of: -64.16
+Do you want to see the previous scores? (y/n) y
+How many scores do you want to see (>0)? 12
+Name: stuart
+ Score: 602.43
+ Rounds: 2
+Name: stuart
+ Score: 545.03
+ Rounds: 2
+Name: stuart
+ Score: 464.14
+ Rounds: 2
+Name: stuart
+ Score: 367.12
+ Rounds: 2
+Name: stuart
+ Score: 292.33
+ Rounds: 2
+Name: stuart
+ Score: 270.08
+ Rounds: 2
+Name: stuart
+ Score: 269.07
+ Rounds: 2
+Name: a
+ Score: 163.95
+ Rounds: 1
+Name: stuart
+ Score: 139.10
+ Rounds: 2
+Name: a
+ Score: 97.65
+ Rounds: 1
+Name: a
+ Score: 85.08
+ Rounds: 1
+Name: a
+ Score: 77.90
+ Rounds: 1
+]0;stuart.johnstone@csa2:~/Documents/cs355/project/cstuart.johnstone@csa2:~/Documents/cs355/project/c$ ./a.out stuart 10 10
+Persentage of negative Numbers is: 38.000000 % 
+  5   1  -5  13  -3  11  $    7  -8  13 
+  5  -6  -6  -8  12  10  -9  ^   $   -13 
+  6  -2   7  $   13  -13  -2  11   9   2 
+  5  12  -2   1  -2  -14  12  -5  -6   1 
+  9  10  *   13  11  -9   9   9   2   6 
+ $   $   12  10  -5  -10   4  -1  10  -1 
+ -7  $   -4   6   3  -5  -1  -12  -3   6 
+ -14  -8   8   1   4  -5  -8   9  -13   6 
+  8  12  14  -3  -12  12   2  ^   -15  ^  
+ @   ^   -9  @   -3   8  -6  ^    5  11 
+
+Do you want to see the previous scores? (y/n) y n
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+Lives: 3 
+Bombs: 5 
+Score: 0.00 
+Type -1 -1  to Quit
+What are the cordinates you want to bomb (x y)? 4 4
+the score for this bomb was: -4.53 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  +  -  -  X  X  X  X 
+ X  X  X  +  +  -  X  X  X  X 
+ X  X  X  +  -  -  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+ X  X  X  X  X  X  X  X  X  X 
+Lives: 2 
+Bombs: 4 
+Score:-4.53 
+Type -1 -1  to Quit
+What are the cordinates you want to bomb (x y)? - 1  1 -1
+
+Do you want to see the previous scores? (y/n) n
+]0;stuart.johnstone@csa2:~/Documents/cs355/project/cstuart.johnstone@csa2:~/Documents/cs355/project/c$ eqit
+bash: eqit: command not found
+]0;stuart.johnstone@csa2:~/Documents/cs355/project/cstuart.johnstone@csa2:~/Documents/cs355/project/c$ exit
+exit
+
+Script done on 2020-10-22 21:57:25-06:00
